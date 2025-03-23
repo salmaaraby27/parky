@@ -37,7 +37,8 @@ ALLOWED_HOSTS = [
      "parky-1.onrender.com",
      "127.0.0.1",
      "localhost",
-     "parky-tyy3.onrender.com"
+     "parky-tyy3.onrender.com",
+     "parky-2.onrender.com"
 ]
 
 
