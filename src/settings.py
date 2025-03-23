@@ -25,10 +25,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 
-SECRET_KEY = os.getenv("SECRET_KEY")
+SECRET_KEY = 'django-insecure-orp#-&e$dkahv-2yq$tj#3qy9-yw1+s$*7jwdu_vn88!txqecx'
 
-if not SECRET_KEY:
-    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
 
 
 
