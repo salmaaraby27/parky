@@ -33,7 +33,11 @@ SECRET_KEY = 'django-insecure-orp#-&e$dkahv-2yq$tj#3qy9-yw1+s$*7jwdu_vn88!txqecx
 # SECURITY WARNING: don't run with debug turned on in production!
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+     "parky-1.onrender.com",
+     "127.0.0.1",
+     "localhost",
+]
 
 
 # Application definition
