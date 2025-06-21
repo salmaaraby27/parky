@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-orp#-&e$dkahv-2yq$tj#3qy9-yw1+s$*7jwdu_vn88!txqecx
 
 
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# SECURITY WARNING: don't run with  turned on in production!
 
 
 ALLOWED_HOSTS = [
@@ -38,7 +38,8 @@ ALLOWED_HOSTS = [
      "127.0.0.1",
      "localhost",
      "parky-tyy3.onrender.com",
-     "parky-2.onrender.com"
+     "parky-2.onrender.com",
+     "*"
 ]
 
 
@@ -55,7 +56,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'parking',
 ]
-DEBUG = True
+DEBUG = False
+# DEBUG = True
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
